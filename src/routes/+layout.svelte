@@ -1,6 +1,6 @@
 <script lang="ts">
     import Sidebar from "$lib/components/Sidebar.svelte";
-import "../app.css";
+    import "../app.css";
 </script>
 
 <div class="flex h-dvh">

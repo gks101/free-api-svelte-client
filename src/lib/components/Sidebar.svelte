@@ -25,8 +25,11 @@
         console.log($page);
     });
 </script>
+
 <div class="container bg-blue-600 w-full h-full p-4">
-    <h1 class="text-2xl text-white font-bold">FreeApi.app</h1>
+    <h1 class="text-2xl text-white font-bold">
+        <a href="/">FreeApi.app</a>
+    </h1>
     <div class="container mt-4">
         <ul class="list-none">
             {#each menuItems as menuItem}
