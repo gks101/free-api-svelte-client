@@ -1,5 +1,5 @@
 
-<head>
+<svelte:head>
     <title>Books</title>
-</head>
+</svelte:head>
 <h1>Books is working</h1>

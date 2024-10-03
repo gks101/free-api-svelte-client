@@ -1,6 +1,6 @@
 
 
-<head>
+<svelte:head>
     <title>Stocks</title>
-</head>
+</svelte:head>
 <h2>Stocks is working</h2>

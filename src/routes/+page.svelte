@@ -1,7 +1,15 @@
+<script lang="ts">
+    let { data } = $props();
+
+    $effect(() => {
+        console.log("Receieved data: ", data);
+    });
+</script>
 
 <head>
     <title>Home | Dashboard</title>
 </head>
+
 <div class="container p-4 h-full w-full">
     <!-- <div class="flex justify-center pb-4 border-b-[1px] border-b-blue-500"> -->
     <div class="flex justify-center pb-4 shadow-lg shadow-blue-100 rounded-sm">
