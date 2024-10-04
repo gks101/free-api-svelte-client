@@ -6,9 +6,9 @@
     });
 </script>
 
-<head>
+<svelte:head>
     <title>Home | Dashboard</title>
-</head>
+</svelte:head>
 
 <div class="container p-4 h-full w-full">
     <!-- <div class="flex justify-center pb-4 border-b-[1px] border-b-blue-500"> -->
