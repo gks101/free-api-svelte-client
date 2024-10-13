@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.largeFileOptimizations": true,
+    "css.lint.unknownAtRules": "ignore"
+}
