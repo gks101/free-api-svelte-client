@@ -13,5 +13,6 @@ import { randomUserTableColumns } from "$lib/data/TableColumns";
     <title>Random Users</title>
 </svelte:head>
 
-<h1>Random Users is working</h1>
-<DataTable columns={data.columns} data={data.data} />
+<div class="container p-12">
+    <DataTable columns={data.columns} data={data.data} />
+</div>
